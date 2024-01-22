@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:pixelsize=14:antialias=true:autohint=true";
+static char *font = "FiraCode:pixelsize=14:antialias=true:autohint=true";
 static char *font2[] = { "NotoColorEmoji:pixelsize=14:antialias=true:autohint=true" };
 static int borderpx = 2;
 
@@ -283,6 +283,7 @@ static Shortcut shortcuts[] = {
 	{ MODKEY,               XK_l,           externalpipe,   {.v = openurlcmd } },
 	{ MODKEY,               XK_y,           externalpipe,   {.v = copyurlcmd } },
 	{ MODKEY,               XK_o,           externalpipe,   {.v = copyoutput } },
+	{ TERMMOD,              XK_Return,      newterm,        {.i = 0 } },
 };
 
 /*

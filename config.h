@@ -5,8 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "FiraCode:pixelsize=14:antialias=true:autohint=true";
-static char *font2[] = { "NotoColorEmoji:pixelsize=14:antialias=true:autohint=true" };
+//static char *font = "FiraCode:pixelsize=16:antialias=true:autohint=true";
+static char *font = "Iosevka:pixelsize=17:antialias=true:autohint=true";
+static char *font2[] = { "NotoColorEmoji:pixelsize=16:antialias=true:autohint=true" };
 static int borderpx = 2;
 
 /*
